@@ -2,7 +2,6 @@ package com.team5.userAuthentication.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Lob;
 
 @Entity
 public class User {
