@@ -15,8 +15,11 @@ public class User {
     private String userEmail;
 //    @Column(name="profilePicture")
 //    private String profilePictureUrl; 
+    public User() {
+    	
+    }
     
-	public User(String userId, String userPassword, String userEmail, String profilePictureUrl) {
+	public User(String userId, String userPassword, String userEmail) {
 		super();
 		this.userId = userId;
 		this.userPassword = userPassword;
